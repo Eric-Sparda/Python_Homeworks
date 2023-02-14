@@ -85,3 +85,24 @@
 # if __name__ == "__main__":
 #     main()
 
+#coins---------------------------------------------------------
+
+# def can_make_change(total, num_coins, coin_values):
+#     if total == 0:
+#         return True
+#     if num_coins == 0:
+#         return False
+#     if total < coin_values[0]:
+#         return can_make_change(total,num_coins-1,coin_values[1:])
+#     else:
+#         total = total - coin_values[0]
+#         return can_make_change(total, num_coins-1,coin_values)
+
+# def main():
+#     total = int(input("Enter the total amount in cents: "))
+#     num_coins = int(input("Enter the number of coins: "))
+#     coin_values = [0.25, 0.10, 0.05, 0.01]
+#     print(can_make_change(total, num_coins, coin_values))
+
+# if __name__ == "__main__":
+#     main()
